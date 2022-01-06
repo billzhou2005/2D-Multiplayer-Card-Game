@@ -92,6 +92,8 @@ GameObject:
   - component: {fileID: 3829413997524288635}
   - component: {fileID: 3829413997524288634}
   - component: {fileID: 5237206449528591400}
+  - component: {fileID: 3259996806066779668}
+  - component: {fileID: -8610986957094444514}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -228,3 +230,54 @@ MonoBehaviour:
   card1: {fileID: 3992916633302507070, guid: 9c35574791002d845b60cd859e25b75a, type: 3}
   card2: {fileID: 4921195242311329336, guid: f5236ab0be0f8f445a9ee577b0211045, type: 3}
   PlayerArea: {fileID: 7249598818685879706, guid: cf0fb865bc29393418ac0fe5fe6544fc, type: 3}
+--- !u!114 &3259996806066779668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829413997524288632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 14c7e50aff364534290d996d7d2b39e4
+  hasSpawned: 0
+--- !u!114 &-8610986957094444514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829413997524288632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 0
+  sendInterval: 0.05
+  syncPosition: 1
+  syncRotation: 1
+  syncScale: 0
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 0
+  bufferTimeMultiplier: 1
+  bufferSizeLimit: 64
+  catchupThreshold: 4
+  catchupMultiplier: 0.1
+  onlySyncOnChange: 1
+  bufferResetMultiplier: 5
+  positionSensitivity: 0.01
+  rotationSensitivity: 0.01
+  scaleSensitivity: 0.01
+  showGizmos: 0
+  showOverlay: 0
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
