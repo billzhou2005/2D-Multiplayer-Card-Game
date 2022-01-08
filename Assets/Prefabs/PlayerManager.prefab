@@ -96,3 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81ea0a76391aace4c92ecc237d42f83c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  Card1: {fileID: 3992916633302507070, guid: 9c35574791002d845b60cd859e25b75a, type: 3}
+  Card2: {fileID: 4921195242311329336, guid: f5236ab0be0f8f445a9ee577b0211045, type: 3}
+  PlayerArea: {fileID: 0}
+  EnemyArea: {fileID: 0}
+  DropZone: {fileID: 0}
